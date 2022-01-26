@@ -8,26 +8,100 @@
 
 body{
     background-color: cadetblue;
+    background-image: url(f832e4dcbf917263c7c1c5cd51cff2e1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.wrap{
+    background-color: darkviolet;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    opacity: 0.7;
 }
 
 header{
     background-color: darkgoldenrod;
-    width: auto;
-    height: 75px;
+    width: 100%;
+    height: 85px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+
+.logo img{
+    width: 35px;
+}
+
+.banner{
+    background-color: maroon;
 }
 
 .décompte{
-    background-color: darksalmon;
-    width: 100vw;
-    height: 55px;
-    margin-top: 5px;
+    background-color: rgb(160, 123, 110);
+    
+    width: auto;
+    height: 75px;
+
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 
 .jours, .heures, .minutes, .secondes{
     background-color: darkturquoise;
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
+}
+
+.jours{
+    background-color: floralwhite;
+}
+
+.heures{
+    background-color: gold;
+}
+
+.minutes{
+    background-color: hotpink;
+}
+
+.secondes{
+    background-color: lawngreen;
+}
+
+.décompte p{
+    font-size: 14px;
+}
+
+
+.banner{
+    background-color: rgb(151, 121, 97);
+    width: 90vw;
+    height: 95px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-25%);
+    box-shadow:5px 5px 5px  black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
