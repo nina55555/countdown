@@ -1,0 +1,33 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+header{
+    background-color: darkgoldenrod;
+    width: auto;
+    height: 75px;
+}
+
+.décompte{
+    background-color: darksalmon;
+    width: 100vw;
+    height: 55px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.jours, .heures, .minutes, .secondes{
+    background-color: darkturquoise;
+    width: 35px;
+    height: 35px;
+}
