@@ -51,7 +51,7 @@ header{
     background-color: maroon;
 }
 
-.décompte{
+#countdown{
     background-color: rgb(160, 123, 110);
     
     width: auto;
@@ -87,7 +87,7 @@ header{
     background-color: lawngreen;
 }
 
-.décompte p{
+#countdown p{
     font-size: 14px;
 }
 
