@@ -27,7 +27,7 @@ function refreshCountdown(){
         minutes: Math.floor (difference % HOURS / MINUTES),
         secondes: Math.floor (difference % MINUTES)
     }
-    console.log("hello")
+    //console.log("hello")
     updateDom(diff);
     window.setTimeout(()=>{
         window.requestAnimationFrame(refreshCountdown)
