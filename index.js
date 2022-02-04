@@ -1,4 +1,5 @@
 
+
 const MINUTES = 60;
 const HOURS = 60 * MINUTES;
 const DAYS = 24 * HOURS;
@@ -35,6 +36,7 @@ function refreshCountdown(){
 }
     
 
+
 /**
  * Met à jour la structure en fonction d'un interval timeout
  * @param {{days: number, hours: number, minutes: number, secondes: number}} diff 
@@ -52,3 +54,5 @@ previousDiff = diff
 
 
 refreshCountdown();
+
+
