@@ -18,7 +18,7 @@ let previousDiff = {}
 
 function refreshCountdown(){
     const difference = launchDate - Date.now()/1000;
-    if (difference <= 0){
+    if (difference < 1){
         document.location = "end-auction.html";
         return;
     }
@@ -51,7 +51,6 @@ function updateDom(diff){
     })  
 previousDiff = diff        
 }
-
 
 refreshCountdown();
 

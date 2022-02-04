@@ -9,6 +9,8 @@
 body{
     background-color: cadetblue;
     background-image: url(img/f832e4dcbf917263c7c1c5cd51cff2e1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
