@@ -6,6 +6,7 @@ function addLove (){
     //console.log(poppin)
 
     lovePic.addEventListener('click', () => {
+        
         poppin.innerText = 'much love'
     })
 }
